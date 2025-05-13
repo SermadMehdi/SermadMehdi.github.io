@@ -3,21 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Nadir Hussain - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm Sermad Mehdi. This is my personal website.</p>
-    </header>
-
-    <section>
-        <h2>Projects</h2>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
         <ul>
-            <li>Project 1 - <a href="#">View More</a></li>
-            <li>Project 2 - <a href="#">View More</a></li>
+            <li><a href="#home">🏠 Home</a></li>
+            <li><a href="#projects">💻 Projects</a></li>
+            <li><a href="#experience">🛠️ Experience</a></li>
+            <li><a href="#about">👨‍🎓 About Me</a></li>
+            <li><a href="#contact">📧 Contact</a></li>
         </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <img src="profile.jpg" alt="Nadir Hussain" class="profile-pic">
+        <h1>I am Nadir Hussain</h1>
+        <p>Studying Electrical Engineering at GIKI University ⚡</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>💻 My Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project One</h3>
+                <p>Short description of Project One.</p>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project Two</h3>
+                <p>Short description of Project Two.</p>
+            </div>
+            <div class="project-card">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Project Three</h3>
+                <p>Short description of Project Three.</p>
+            </div>
+            <div class="project-card">
+                <img src="project4.jpg" alt="Project 4">
+                <h3>Project Four</h3>
+                <p>Short description of Project Four.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <h2>🛠️ Work Experience</h2>
+        <p>Details about internships, jobs, and other professional experiences.</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <h2>👨‍🎓 About Me</h2>
+        <p>I am an aspiring Electrical Engineer from GIKI University with a passion for innovation and technology.</p>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="section">
+        <h2>📧 Contact Me</h2>
+        <p>Email: nadir.hussain@example.com</p>
+        <p>LinkedIn: <a href="#">Profile Link</a></p>
     </section>
 
     <script src="script.js"></script>

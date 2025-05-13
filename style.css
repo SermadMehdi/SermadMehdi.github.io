@@ -1,21 +1,74 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
     color: #333;
     margin: 0;
-    padding: 20px;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 30px;
+.navbar {
+    background-color: #333;
+    padding: 10px;
 }
 
-section {
-    margin-top: 20px;
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
-a {
-    color: #007bff;
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
     text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #ff5733;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.home {
+    background: linear-gradient(to right, #ff6f61, #ff4757);
+    color: #fff;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
 }
